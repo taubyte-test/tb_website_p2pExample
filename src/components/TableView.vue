@@ -5,7 +5,7 @@ export default {
   name: "TableView",
   data() {
     return {
-      host: "http://hal.computers.com:9090",
+      host: window.location.origin, //"http://hal.computers.com:9090",
       /** @type Array<{
        * protocol: string,
        * command: string,
